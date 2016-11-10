@@ -11,7 +11,7 @@ import org.springframework.core.env.Environment;
 public class DubboConfigurationApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
 
     private ConfigurableApplicationContext applicationContext;
-//test push
+
     public void initialize(ConfigurableApplicationContext applicationContext) {
         this.applicationContext = applicationContext;
         Environment env = applicationContext.getEnvironment();
