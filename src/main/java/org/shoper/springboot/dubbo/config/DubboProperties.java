@@ -9,13 +9,13 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "spring.dubbo")
 public class DubboProperties {
 
-    private String            scan;
+    private String scan;
     @NestedConfigurationProperty
     private ApplicationConfig application;
     @NestedConfigurationProperty
-    private RegistryConfig    registry;
+    private RegistryConfig registry;
     @NestedConfigurationProperty
-    private ProtocolConfig    protocol;
+    private ProtocolConfig protocol;
     @NestedConfigurationProperty
     private ConsumerConfig consumerConfig;
     @NestedConfigurationProperty
